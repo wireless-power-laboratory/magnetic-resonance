@@ -12,7 +12,7 @@ Where a pair of 30mm-radius, three-turn, inductive loop coils illustrate that 5V
 
 ### Analytical Task
 
-`TODO: Calibrate the graticules and rephotograph for ease of viewing`
+`TODO: Calibrate the graticules and rephotograph for ease of viewing. Discuss and document the calibration in the appropriate repos.`
 
 There is a task to measure the coupling-coefficient between two 12mm radius, ten-turn, inductive loop coils. It is interesting to know whether the efficiency is better or worse with small coils verses the larger ones that can power lamps at a distance. We would like to determine emperically what are the losses across a frequency sample (band); in this case, between 100 kHz and 100 MHz.
 
