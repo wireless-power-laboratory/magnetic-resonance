@@ -18,7 +18,7 @@ Using the hp[8601A](https://github.com/wireless-power-laboratory/hp8601a) Sweepe
 
 ![8601-007](/img/8601-007.jpg)
 
-Where the input for the `1st LO` will come as an output from the hp8553L plug-in for the hp141S Spectrum Analyzer. 
+Where the input for the `1st LO` will come as an output from the hp8553L RF Section plug-in for the hp141S Spectrum Analyzer. 
 
 ![8553L](/img/8553-lo.jpg)
 
@@ -38,4 +38,6 @@ Where one can see how the coupled-coil arrangement performs under the frequency 
 
 ### Analytical Result
 
-Observing that the output power of the hp8601A is set to `-30 dbm` and the meter-trim set to `0` -- from the figure it reads `-2` meaning it _actually_ has an output value of `-32 dbm` -- this is the sweep power for every frequency sent across the band and is visible on the display. 
+Observing that the output power of the hp8601A is set to `-30 dbm` and the meter-trim set to `0` -- from the figure it reads `-2` meaning it _actually_ has an output value of `-32 dbm` -- this is the sweep power for every frequency sent across the band and is visible on the display. In order for the calibration _between_ the two pieces of test equipment, they should be set in a referential manner -- meaning the `LOG REF` setting on the hp8552A IF Section plug-in is also set to `-30 dbm`. Therefore, one can determine the linearity of the coupled-coils over the entire sweep.
+
+
