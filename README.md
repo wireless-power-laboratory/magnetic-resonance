@@ -20,7 +20,7 @@ Using the hp[8601A](https://github.com/wireless-power-laboratory/hp8601a) Sweepe
 
 ![8601-007](/img/8601-007.jpg)
 
-Where the input for the `1st LO` will come as an output from the hp8553L RF Section plug-in for the hp141S Spectrum Analyzer. 
+Where the input for the `1st LO` will come as an output from the hp8553L RF Section plug-in for the hp141S Spectrum Analyzer. As the hp8601A OPT007 that has this particular feature is nearly impossible to find, I made the appropriate modifications according to the Service Manual. To note, the schematic shows a RF amplifier but I opted to test if the modification would work without as the amplifier is a passive type meaning it would only engage if following too low a power value (drift from the set power) adn not directly affecting the signal if it were to not be included. I tend to do this with Hewlett-Packard test equipment as, from experience, they are over-built rather than under-built. Draft testing showed the amplifier not required at the 8553L and there is enough signal strength to traverse a 3m cable between the hp8601A and the hp141S/8552A/8553L set perpendicular to one another.
 
 ![8553L](/img/8553-lo.jpg)
 
