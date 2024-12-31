@@ -1,6 +1,6 @@
 ## Research and development of magnetic resonance technologies
 
-Output relating to my work on coupled-coil wireless-power transfer by magnetic resonance. `TODO: Calibrate the graticules and rephotograph for ease of viewing`
+Output relating to my work on coupled-coil wireless-power transfer by magnetic resonance.
 
 ### The foundation brought by wireless power
 
@@ -11,6 +11,8 @@ My work over the past fifteen years has revolved around this kind of output
 Where a pair of 30mm-radius, three-turn, inductive loop coils illustrate that 5V DC power can be thusly utilized to power wirelessly.
 
 ### Analytical Task
+
+`TODO: Calibrate the graticules and rephotograph for ease of viewing`
 
 There is a task to measure the coupling-coefficient between two 12mm radius, ten-turn, inductive loop coils. It is interesting to know whether the efficiency is better or worse with small coils verses the larger ones that can power lamps at a distance. We would like to determine emperically what are the losses across a frequency sample (band); in this case, between 100 kHz and 100 MHz.
 
