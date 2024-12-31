@@ -10,7 +10,7 @@ My work over the past fifteen years has revolved around this kind of output
 
 Where a pair of 30mm-radius, three-turn, inductive loop coils illustrate that 5V DC power can be thusly utilized to power wirelessly.
 
-### Basic analytic arrangement
+### Analytical Task
 
 There is a task to measure the coupling-coefficient between two 12mm radius, ten-turn, inductive loop coils. It is interesting to know whether the efficiency is better or worse with small coils verses the larger ones that can power lamps at a distance. We would like to determine emperically what are the losses across a frequency sample (band); in this case, between 100 kHz and 100 MHz.
 
@@ -35,3 +35,7 @@ When powered-on, the following is displayed on the hp141S.
 ![linearity](/img/linearity.jpg)
 
 Where one can see how the coupled-coil arrangement performs under the frequency range of interest.
+
+### Analytical Result
+
+Observing that the output power of the hp8601A is set to `-30 dbm` and the meter-trim set to `0` -- from the figure it reads `-2` meaning it _actually_ has an output value of `-32 dbm` -- this is the sweep power for every frequency sent across the band and is visible on the display. 
