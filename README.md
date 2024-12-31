@@ -18,5 +18,20 @@ Using the hp[8601A](https://github.com/wireless-power-laboratory/hp8601a) Sweepe
 
 ![8601-007](/img/8601-007.jpg)
 
-Where the input for the `1st LO` will come as an output from the hp[8553L](/img/8553-lo.jpg) plug-in for the hp141S Spectrum Analyzer. When using in a single-frequency setting, one can turn the knob on the hp8601A to change the output; for the purposes of this experiment the entire range will be applied to the coils
+Where the input for the `1st LO` will come as an output from the hp8553L plug-in for the hp141S Spectrum Analyzer. 
 
+![8553L](/img/8553-lo.jpg)
+
+When using in a single-frequency setting, one can turn the knob on the hp8601A to change the output; 
+
+![sweeper](/img/sweeper.jpg)
+
+for the purposes of this experiment the entire range will be applied to the coils that are attached by a special cable to the BNC cables to each piece of test equipment.
+
+![coupled-coils](/img/coupled-coils.jpg)
+
+When powered-on, the following is displayed on the hp141S.
+
+![linearity](/img/linearity.jpg)
+
+Where one can see how the coupled-coil arrangement performs under the frequency range of interest.
