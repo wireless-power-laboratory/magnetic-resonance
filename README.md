@@ -1,6 +1,6 @@
 ## Research and development of magnetic resonance technologies
 
-Output relating to my work on coupled-coil wireless-power transfer by magnetic resonance.
+Output relating to my work on coupled-coil wireless-power transfer by magnetic resonance. `TODO: Calibrate the graticules and rephotograph for ease of viewing`
 
 ### The foundation brought by wireless power
 
@@ -40,4 +40,6 @@ Where one can see how the coupled-coil arrangement performs under the frequency 
 
 Observing that the output power of the hp8601A is set to `-30 dbm` and the meter-trim set to `0` -- from the figure it reads `-2` meaning it _actually_ has an output value of `-32 dbm` -- this is the sweep power for every frequency sent across the band and is visible on the display. In order for the calibration _between_ the two pieces of test equipment, they should be set in a referential manner -- meaning the `LOG REF` setting on the hp8552A IF Section plug-in is also set to `-30 dbm`. Therefore, one can determine the linearity of the coupled-coils over the entire sweep.
 
-On the spectum analyzer display screen, the dashed-line bisecting horizontally is the `-30 dbm` reference line, as it shares this with its internal calibration signal. The graticule indicators along the bottom are from low (the left) to high (the right) as this is in _tracking generator_ mode rather than _center frequency_ mode. 
+100,000 - 100,000,000 | 50 graticules - `TODO: Write a mathematical expression`
+
+On the spectum analyzer display screen, the dashed-line bisecting horizontally is the `-30 dbm` reference line, as it shares this with its internal calibration signal. The graticule indicators along the bottom are from low (the left) to high (the right) as this is in _tracking generator_ mode rather than _center frequency_ mode. What is the graticule to measure the result is the one traversing the center of the screen from `LIN` to `LOG`. By examination, one can see that the coil arrangement has a peak coupling (minimal loss) at the fourth graticule `2 MHz` then which slowly increases losses reaching is maximum value at the thirty-fifth graticule `75 MHz` at `-43 dbm`, then rises in efficiency to `-40 dbm` level at the end of the sweep. We could state that it would be most efficient to have the circuit perform at the `2 MHz` frequency indication.
