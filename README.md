@@ -12,9 +12,9 @@ Where a pair of 30mm-radius, three-turn, inductive loop coils illustrate that 5V
 
 ### Basic analytic arrangement
 
-There is a task to measure the coupling-coefficient between two 12mm radius, ten-turn, inductive loop coils. It is interesting to know whether the efficiency is better or worse with small coils
+There is a task to measure the coupling-coefficient between two 12mm radius, ten-turn, inductive loop coils. It is interesting to know whether the efficiency is better or worse with small coils verses the larger ones that can power lamps at a distance. We would like to determine emperically what are the losses across a frequency sample (band); in this case, between 100 kHz and 100 MHz.
 
-Using the HP[8601A](https://github.com/wireless-power-laboratory/hp8601a) Sweeper/Generator in _tracking generator mode_, one can observe the linearity of two 12.5mm-radius, 10-turn inductive-loop coils on a HP[141S](https://github.com/wireless-power-laboratory/hp141s) Spectrum Analyzer.
+Using the hp[8601A](https://github.com/wireless-power-laboratory/hp8601a) Sweeper/Generator in _tracking generator mode_, one can observe the linearity of two 12.5mm-radius, 10-turn inductive-loop coils on a hp[141S](https://github.com/wireless-power-laboratory/hp141s) Spectrum Analyzer.
 
 The hp8601A is set to run as a tracking generator by modifying the internals in such a way as to direct the `VTO` out and the `1st LO` in.
 
